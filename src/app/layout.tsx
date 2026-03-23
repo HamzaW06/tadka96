@@ -4,6 +4,7 @@ import '@/styles/globals.css'
 import Navbar from '@/components/layout/Navbar'
 import Footer from '@/components/layout/Footer'
 import MobileBottomNav from '@/components/layout/MobileBottomNav'
+import { Analytics } from '@vercel/analytics/next'
 
 const playfair = Playfair_Display({
   subsets: ['latin'],
@@ -159,6 +160,7 @@ export default function RootLayout({
         <main id="main-content" className="flex-1 pb-16 md:pb-0">{children}</main>
         <Footer />
         <MobileBottomNav />
+        <Analytics />
       </body>
     </html>
   )

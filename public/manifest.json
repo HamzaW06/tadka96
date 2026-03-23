@@ -1,0 +1,40 @@
+{
+  "name": "Tadka 96 — Indian Fusion Restaurant",
+  "short_name": "Tadka 96",
+  "description": "100% Halal Indian Fusion in League City, TX. Order online, view the menu, and more.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#1A1A2E",
+  "theme_color": "#1A1A2E",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "en-US",
+  "categories": ["food", "restaurants"],
+  "icons": [
+    { "src": "/favicon.ico", "sizes": "48x48", "type": "image/x-icon" },
+    { "src": "/apple-touch-icon.png", "sizes": "180x180", "type": "image/png", "purpose": "any maskable" }
+  ],
+  "shortcuts": [
+    {
+      "name": "View Menu",
+      "short_name": "Menu",
+      "description": "Browse the full Tadka 96 menu",
+      "url": "/menu",
+      "icons": [{ "src": "/favicon.ico", "sizes": "48x48" }]
+    },
+    {
+      "name": "Order Now",
+      "short_name": "Order",
+      "description": "Order online via DoorDash or Uber Eats",
+      "url": "/order",
+      "icons": [{ "src": "/favicon.ico", "sizes": "48x48" }]
+    },
+    {
+      "name": "Catering",
+      "short_name": "Catering",
+      "description": "Book Tadka 96 for your event",
+      "url": "/catering",
+      "icons": [{ "src": "/favicon.ico", "sizes": "48x48" }]
+    }
+  ]
+}
